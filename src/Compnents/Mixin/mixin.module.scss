@@ -1,0 +1,18 @@
+@import "./Varaible.module.scss";
+
+@mixin TopbarMixin($size){
+ 
+    @if $size == "LG" {
+        font-size: 25px !important;
+    }
+    @if $size == "MD" {
+        font-size: 20px !important;
+    }
+    @if $size == "SM" {
+        font-size: 15px !important;
+    }
+    
+    @if $size == "XS" {
+        font-size: 10px !important;
+    }
+}

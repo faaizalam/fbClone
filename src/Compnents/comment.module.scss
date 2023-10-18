@@ -1,0 +1,49 @@
+.reply{
+    margin-left: 20px;
+
+}
+.commCont{
+    border: 1px solid rgb(207, 203, 203);
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+.commentBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textComInt{
+    width: 95%;
+    height: 70px;
+    border: 1px solid #e7dbdb;
+    font-size: 18px;
+    text-align: center;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textComInt:focus{
+    outline: none;
+   
+    
+
+}
+
+
+.commbuttons {
+    background: black;
+    width: 58px;
+    color: white;
+ 
+    margin: 5px;
+    
+}
+
+.commentusername{
+    font-weight: 900;
+    color: #1515b7;
+}

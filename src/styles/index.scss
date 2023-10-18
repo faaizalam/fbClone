@@ -1,0 +1,57 @@
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+@import "../Compnents/Mixin/mixin.module.scss";
+
+@import "../Compnents/Layout/Layout.module.scss";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Helvetica (sans-serif)
+    Arial (sans-serif);
+}
+body{
+    height: 100vh;
+    
+    
+}
+
+@media  (max-width: 1100px) {
+    // Styles for large screens
+    .MuiSvgIcon-root {
+      @include TopbarMixin("LG")
+    }
+  }
+  @media  (max-width: 720px) {
+    // Styles for medium screens
+    .MuiSvgIcon-root {
+        @include TopbarMixin("MD")
+      }
+}
+    
+@media(max-width:420px) {
+    // Styles for small screens
+    .MuiSvgIcon-root {
+        @include TopbarMixin("SM")
+      }
+}
+    // font-size: 10px !important;
+    @media (max-width:0px) {
+        .MuiSvgIcon-root {
+            @include TopbarMixin("XS")
+          }
+    }
+
+    
+  
+  
+
+
+    #__next {
+        height: auto;
+    }
+
+
+ 

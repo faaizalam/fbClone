@@ -1,0 +1,66 @@
+
+.ProfileCOnt{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 4;
+    padding: 5px;
+    align-items: center;
+}
+
+.coverPhoto{
+    width: 100%;
+}
+
+.coverimg{
+    width: 100%;
+   
+}
+.bio{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.TimelineProfile{
+ 
+    img{
+        border-radius: 80px;
+        width: 150px;
+        height: 150px;
+      
+        
+    }
+
+}
+
+.Profile{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+}
+
+.addpic{
+    top: 110px;
+    position: absolute;
+}
+
+.userbioinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.Followcomponents{
+    display: flex;
+    margin: 5px;
+    justify-content: space-around;
+    .foll{
+        margin-left: 10px;
+
+    }
+    
+}

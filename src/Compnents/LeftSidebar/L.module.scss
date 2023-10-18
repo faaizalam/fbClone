@@ -1,0 +1,51 @@
+.LbarContainer{
+    height: calc(100vh - 64px);
+    flex: 2;
+    position: sticky;
+   
+    overflow-y: scroll;
+    top: 64px;
+    
+}
+.LbarContainer::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .LbarContainer::-webkit-scrollbar-track {
+    background:linear-gradient(to bottom,#70316d,#708090);
+  }
+  
+  .LbarContainer::-webkit-scrollbar-thumb {
+    background: rgb(27, 27, 27);
+    border-radius: 5px;
+  }
+//   .LbarContainer::-webkit-scrollbar-thumb:hover {
+//     background: #555;
+//   }
+  
+  .LbarContainer::-webkit-scrollbar-button {
+    display: none;
+  }
+
+.LeftbarListCont{
+    padding: 10px;
+    height: 70%;
+  }
+
+  .leftitems{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+  }
+  .leftitems:hover{
+    background-color: rgb(107, 107, 107);
+  }
+  .leftitems span{
+     margin-right: 20px;
+  }
+  .leftitemsuser{
+    margin: 20px;
+    list-style: none;
+  }

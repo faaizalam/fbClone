@@ -1,0 +1,86 @@
+@import "../Mixin/mixin.module.scss";
+@import "../Mixin//Varaible.module.scss";
+.TopCont{
+//   flex: 1;
+flex-wrap: wrap;
+  color: white;
+        display: flex;
+        background-color:rgb(21 21 149);
+        width: 100%;
+        justify-content:center;
+        height: 100%;
+        align-items: center;
+        // & > div{
+        //     padding: 5px;
+        // }
+    }
+    .searchdiv{
+        display: flex;
+        width: 100%;
+        height: 30px;
+        background-color: white;
+        border-radius: 30px;
+        align-items: center;
+        color: black;
+    }
+
+
+.leftnav{
+    display: flex;
+    flex: 0.5;
+    
+}
+.rightnav{
+    display: flex;
+    flex: 1;
+justify-content:space-around;
+align-items: center;
+& >div{
+    // margin: 5px;
+}
+}
+.centernav{
+    display: flex;
+    flex: 2;
+    // padding: 5px;
+
+}
+.topicons{
+    font-size: 20px !important;
+    position: relative;
+    & > div{
+        
+        position: absolute;
+        color: red;
+        font-weight:900;
+        right: -5px;
+        top: -12px;
+        font-size: 15px;      
+    }
+}
+
+.topbarprofileimg{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.serachinput{
+    width: 80%;
+    padding: 5px;
+    border: none;
+   
+}
+.serachinput:focus{
+    outline: none;
+
+}
+.searchdiv{
+    padding: 5px;
+}
+// }
+// .topbarimg{
+//     width: 200px;
+//     height: 100px;
+// }
+
